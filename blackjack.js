@@ -10,6 +10,8 @@ var deck;
 
 var canHit = true; //allows the player (you) to draw while yourSum <= 21
 
+
+
 window.onload = function() {
     buildDeck();
     shuffleDeck();
@@ -26,7 +28,7 @@ function buildDeck() {
             deck.push(values[j] + "-" + types[i]); //A-C -> K-C, A-D -> K-D
         }
     }
-    // console.log(deck);
+    // console.log(deck);   
 }
 
 function shuffleDeck() {
